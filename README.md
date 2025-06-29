@@ -88,7 +88,7 @@ Once you log in / sign up successfully , you will be directed to the main page ,
 
     
 ## Mind map to summarize the system's user roles and functionalities :
-![Mind Map](https://github.com/ESSTSup/Team-2.1/blob/4849d1c80860af282c5365cafb1b338bfc990c53/Mind%20Map.jpg)
+![Mind Map]([https://github.com/ESSTSup/Team-2.1/blob/4849d1c80860af282c5365cafb1b338bfc990c53/Mind%20Map.jpg](https://github.com/mohamed-hammouche/L2-univProject/blob/0bd8a91a6be36f33519ea243b56c74f143deee7a/Mind%20Map.jpg))
 
 Doctor: M.Docteur@gmail.com, Assistant: 2@gmail.com, Patient: koussa@gmail.com — All use the same password: 123
 
