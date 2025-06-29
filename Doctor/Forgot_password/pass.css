@@ -1,0 +1,109 @@
+body , html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 245, 245);
+}
+#login{
+    
+    font-size: 30px;
+    margin-top: 0;
+    margin-right: 50%;
+    white-space: nowrap;
+    
+
+}
+.loginbox {
+    background-image: url(../../copy-space-medical-desk_23-2148519719.jpg);
+    background-size: cover;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%; 
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 30px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: #fff; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+input{
+    margin: 3px;
+    margin-left: 50px;
+    width: 60%;
+    text-align: center;
+}
+#mail{
+    margin-left: 16.5%;
+    margin-bottom: 5px;
+    width: 60%;
+}
+#key{
+    margin-left: 18%;
+}
+#mailtext ,#keytxt{
+    margin-left: 6%; 
+}
+#keytxt{
+    padding-left: 5px;
+}
+
+/*new password*/
+.newpas{
+    white-space: nowrap;
+    justify-content: space-between;
+    text-align: left;
+}
+#newpass{
+    margin-left: 6.5%;
+    width: 60%;
+    place-content: center;
+}
+#newtext{
+    margin-left: 5%;
+}
+
+/*retype password*/
+#repass{
+    margin-left: 18px;
+    margin-bottom: 5px;
+    width: 59.5%;
+
+}
+.repas{
+    white-space: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+}
+#repastext{
+    margin-left: 8px;
+}
+/*-------*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#move{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin-left: 27%;
+}
+#back{
+    width: 70px;
+    margin-left: 60%;
+}
+#confirm{
+    width: 70px;
+}
+

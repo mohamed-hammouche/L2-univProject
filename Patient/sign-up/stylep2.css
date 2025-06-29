@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/date-treatment-with-copy-space.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.main {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(155, 22, 22);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    width: 65px;
+    height: auto;
+    cursor: pointer;
+}
+
+label {
+    font-weight: bold;
+    color: #c01515;
+    display: block;
+    margin: 12px 0 6px;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f99090;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fde3e3;
+}
+
+.password-container {
+    position: relative;
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #c01515;
+    color: white;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+
+button[type="submit"]:hover {
+    background-color: #a10d0d;
+}
+
+input[type="file"] {
+    background-color: white;
+    border: none;
+    padding: 6px;
+    font-size: 14px;
+}

@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/date-treatment-with-copy-space.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    background-color: rgb(155, 22, 22);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    width: 60px; /* Smaller logo size */
+    height: auto;
+    cursor: pointer;
+}
+
+/* Main Container */
+.main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+    margin-top: 80px; /* Adjusted to avoid overlap with header */
+}
+
+/* Form Styling */
+.email1, .password1 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.email1 div, .password1 div {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #c01515;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f99090;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fde3e3;
+}
+
+/* Show/Hide Password Button */
+#buttonshow {
+    background-color: transparent;
+    border: none;
+    color: #c01515;
+    cursor: pointer;
+    font-size: 14px;
+    float: right;
+    margin-top: -25px;
+    margin-right: 10px; /* Adjusted for better placement */
+}
+
+/* Buttons */
+.buttonsl {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 48%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+#login {
+    background-color: #c01515;
+    color: white;
+    animation: move 2s infinite;
+}
+
+#login:hover {
+    background-color: #a10d0d;
+}
+
+#singup {
+    background-color: #f66464;
+    color: white;
+}
+
+#singup:hover {
+    background-color: #f54242;
+}
+
+#img {
+    font-size: 16px;
+    margin: 10px;
+    height: 50px; /* Made smaller */
+}
+
+#title1 {
+    color: #f54242;
+}

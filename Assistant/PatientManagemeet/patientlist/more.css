@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the content */
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Title */
+h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #555;
+}
+
+table td {
+    background-color: #fff;
+    color: #333;
+}
+
+table tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Styling for links */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+#modify-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+#modify-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Patient Info Section */
+#profile-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#profilepic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+#info p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+}
+
+/* Divider line */
+#line {
+    width: 2px;
+    background-color: #ddd;
+    height: 150px;
+    margin-left: 20px;
+}

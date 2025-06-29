@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;       
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#box{
+    border-radius: 5px;
+    height: 20%;
+    width: auto;
+    padding: 9px;
+    background-color: rgb(41, 34, 105);
+    margin-top: 2px;
+    box-shadow: 1px 1px 25px 1.2px rgb(164, 252, 252);
+}
+#button{
+    margin-top: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#back , #submit{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 55px; 
+    height: 20px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid black ;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+#submit:visited, #back:visited{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    width: 50px; 
+    height: 20px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid black ;
+    text-align: center;
+    text-decoration: none;
+}
+#submit:hover, #back:hover{
+    background-color: rgb(179, 236, 238);
+    cursor: pointer;
+    padding : 0px;
+}
+#pass{
+    display: flex;
+    justify-content: center;  
+    margin-left: -4px  ;
+    width: 100%;
+    margin-top : 10px;
+    text-align: center;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    height: 23px;
+}
+#pass:focus{
+    outline: none;
+}
+#field{
+    width: 23%;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 0px;
+}
+#clear {
+    margin-top: 1px;
+    margin-left: -6px;
+}
+#reset {
+    background: none;
+    border: none;
+    color: white;
+    margin-top: 5px;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bolder;
+}
+#reset:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

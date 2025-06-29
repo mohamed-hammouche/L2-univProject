@@ -1,0 +1,99 @@
+body , html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 245, 245);
+}
+#login{
+    
+    font-size: 30px;
+    margin-top: 0;
+    margin-right: 50%;
+    white-space: nowrap;
+    
+
+}
+.loginbox {
+    background-image: url(../../copy-space-medical-desk_23-2148519719.jpg);
+    background-size: cover;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%; 
+    height: auto;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 30px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background-color: #fff; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+input{
+    margin: 3px;
+    width: 70%;
+}
+#mail{
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+#extra{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 100%;
+    margin-left: 25%;
+    margin-top: -3px;
+}
+#reset{
+    border: none; /*set none*/
+    background : none;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom : 6px;
+    padding-left: 4%;
+    
+}
+#reset:hover{
+    cursor: pointer;
+}
+#Fpass{
+    text-decoration: none;
+    border: none;
+    background: none;
+    margin-top: 2.5%;
+    font-size: 12px;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    padding-left: 0px;
+    
+}
+#Fpass:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#move{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin-left: 27%;
+}
+#back{
+    width: 70px;
+}
+#log{
+    width: 70px;
+    margin-right: 3px;
+}
+

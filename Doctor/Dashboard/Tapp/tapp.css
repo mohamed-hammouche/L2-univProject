@@ -1,0 +1,125 @@
+body , html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+nav {
+    border: 1.3px solid black;
+    padding-left: 5px;
+    width: 14.2%; 
+    height: 99.8%;
+    background-color: rgb(193, 245, 245);
+    padding-right: 8px;
+}
+#dash{
+    text-align: center;
+    text-shadow: 1px 1px 20px rgb(254, 232, 232);
+    
+
+}
+#lineh{
+    width: 109%;
+    margin: 0;
+    color: black;
+    border: 1px solid black;
+    margin-left: -8px;
+}
+summary{
+    font-size: 17px;
+    font-weight:600;
+    padding: 5px;
+}
+summary::marker{
+    content: "➕";
+} 
+details[open] summary::marker{
+    content: "➖";
+}
+
+summary:hover{
+    cursor: pointer;
+}
+li{
+    list-style-type:disc;
+    padding-bottom: 10px;
+    margin-top: -6px;
+    padding-right: 0px;
+    margin-bottom: 8px;
+    padding-top: 10px;
+}
+#profile{
+    margin-left: 18%;
+    font-size: 500;
+    margin-bottom: 7px;
+}
+.App{
+    background-color: rgb(134, 237, 237);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 9%;
+    margin-bottom: 5px;
+    margin-top: 4px;
+}
+#tapp{
+    background-color: rgb(134, 237, 237);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right : 30px;
+    padding-left: 3px;
+    width: 90%;
+}
+#tapp:hover{
+    cursor: pointer;
+}
+#body {
+    border: 1px solid black;
+    width: 90%; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+td:last-child a {
+    color: #009688;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(4, 115, 115);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(134, 237, 237);
+    color: black;
+}
+
+td a {
+    text-decoration: none;
+    color: rgb(0, 102, 204);
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+table tr:hover{
+    background-color: rgba(134, 237, 237, 0.5);
+}
